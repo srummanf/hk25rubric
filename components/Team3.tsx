@@ -16,28 +16,41 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
   {
     name: "Tirth Dave",
-    role: "ADVISOR",
-    description: "With 15 years of experience in people management...",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Black_Rhino_at_Working_with_Wildlife.jpg/1200px-Black_Rhino_at_Working_with_Wildlife.jpg",
-    linkedin: "#",
-  },
-  {
-    name: "Sparsh",
-    role: "UX UI DESIGNER",
+    role: "Software",
     description:
-      "I specialize in designing user-centered digital experiences...",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Black_Rhino_at_Working_with_Wildlife.jpg/1200px-Black_Rhino_at_Working_with_Wildlife.jpg",
-    linkedin: "#",
+      "Analyst at Deloitte USI Consulting | Ex President HackClub'22",
+    image: "/tirth.png",
+    linkedin: "https://www.linkedin.com/in/tirth-dave-a953541bb/",
   },
   {
-    name: "Spartan",
-    role: "UX UI DESIGNER",
-    description: "I love creating visually stunning interfaces...",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Black_Rhino_at_Working_with_Wildlife.jpg/1200px-Black_Rhino_at_Working_with_Wildlife.jpg",
-    linkedin: "#",
+    name: "Sparsh Kandpal",
+    role: "Hardware, Software",
+    description: "Upcoming SDE at TCS (Prime) | Beta MLSA | GSSoC' 24 Mentor ",
+    image: "/sparsh.jpg",
+    linkedin: "https://www.linkedin.com/in/sparsh-kandpal-7b8428217/",
+  },
+  {
+    name: "Ashutosh Kumar",
+    role: "Hardware",
+    description: "Hardware Lead HackClub'24",
+    image: "/ashu.jpg",
+    linkedin: "https://www.linkedin.com/in/ashutosh-kumar-b21519272/",
+  },
+  {
+    name: "Spandan Mukherjee",
+    role: "Software, UI/UX Design",
+    description:
+      "Former-Intern @Ericsson | Former Dev Advocate @Quira | Beta MLSA",
+    image: "/spandan.jpg",
+    linkedin: "https://www.linkedin.com/in/spandanm110/",
+  },
+  {
+    name: "Shaikh Rumman Fardeen",
+    role: "Software, UI/UX Design",
+    description:
+      "Upcoming AEH at Accenture | Beta MLSA | Ex Tech Lead HackClub'23 ",
+    image: "/SRF.jpg",
+    linkedin: "https://www.linkedin.com/in/srummanf/",
   },
 ];
 
@@ -76,15 +89,13 @@ export default function Team3() {
           ))}
         </div>
 
-        {/* Custom Cursor - Only show when hovering over a card */}
         {hoveredMember && (
           <motion.div
             className="absolute pointer-events-none cursor-none"
             style={{
               left: mouseX,
               top: mouseY,
-              translateX: "-80%",
-              translateY: "-80%",
+              transform: "translate(-140%, -140%)", // More accurate centering
             }}
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -95,8 +106,8 @@ export default function Team3() {
               <Image
                 src={hoveredMember.image || "/placeholder.svg"}
                 alt={hoveredMember.name}
-                width={80}
-                height={80}
+                width={192} // Higher resolution for smoothness
+                height={192}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -131,18 +142,25 @@ function TeamMemberCard({
           </p>
         </div>
         <Link
-          href={member.linkedin}
-          className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:border-gray-400 transition-colors"
-        >
-          <svg
-            className="w-5 h-5 text-[#FF8D7F]"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
-            <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
-          </svg>
-        </Link>
+  href={member.linkedin}
+  target="_blank"
+  className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center transition-all duration-300 ease-in-out group hover:bg-[#FF8D7F] hover:border-[#FF8D7F]"
+>
+  <svg
+    className="w-6 h-6 text-[#FF8D7F] transition-transform duration-300 ease-in-out group-hover:-rotate-45 group-hover:text-white"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    <path d="M5 12h14"></path> 
+    <path d="M12 5l7 7-7 7"></path>
+  </svg>
+</Link>
+
       </div>
     </div>
   );

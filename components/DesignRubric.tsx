@@ -55,34 +55,46 @@ const DesignRubric = () => {
             </h2>
             <ul className="list-disc list-inside text-[#929292] space-y-2 ml-24">
               <li>
-                Title Slide - Team Name, Team Number, Project Title, Team
-                Members
+                <strong>Title Slide -</strong> Team Name, Team Number, Project
+                Title, Team Members
               </li>
               <li>
-                Problem Statement - Describe the problem you aim to solve, Why
-                is this problem important?
+                <strong>Problem Statement -</strong> Describe the problem you
+                aim to solve, Why is this problem important?
               </li>
               <li>
-                Empathize - Target Audience: Who are the users?, Research
-                Methods: Surveys, interviews, observations, Key Insights: Main
-                pain points and user needs
+                <strong>Empathize -</strong>
+                <strong>Target Audience:</strong> Who are the users?,
+                <strong>Research Methods:</strong> Surveys, interviews,
+                observations,
+                <strong>Key Insights:</strong> Main pain points and user needs
               </li>
               <li>
-                Define - Problem Definition: Clear and concise problem
-                statement, How does this problem affect the users?, Scope and
-                limitations of the project
+                <strong>Define -</strong>
+                <strong>Problem Definition:</strong> Clear and concise problem
+                statement,
+                <strong>Impact:</strong> How does this problem affect the
+                users?,
+                <strong>Scope:</strong> Scope and limitations of the project
               </li>
               <li>
-                Ideate - Brainstorming Methods: List of techniques used (e.g.,
-                mind mapping, brainstorming sessions) , Initial Ideas: A few
-                rough concepts and sketches (At Least 2 ideas), Selection
-                Criteria: How did you decide on the final idea?
+                <strong>Ideate -</strong>
+                <strong>Brainstorming Methods:</strong> List of techniques used
+                (e.g., mind mapping, brainstorming sessions),
+                <strong>Initial Ideas:</strong> A few rough concepts and
+                sketches (At least 2 ideas),
+                <strong>Selection Criteria:</strong> How did you decide on the
+                final idea?
               </li>
               <li>
-                Product Relevance in the Real World: Target users, Market demand
-                or industry relevance, How does it improve existing solutions?
+                <strong>Product Relevance in the Real World -</strong> Target
+                users, Market demand or industry relevance, How does it improve
+                existing solutions?
               </li>
-              <li>Wireframing - (All)Lofi Wireframe /(Partial/None)HiFi</li>
+              <li>
+                <strong>Wireframing -</strong> (All) Lofi Wireframe /
+                (Partial/None) HiFi
+              </li>
             </ul>
           </div>
         </div>
@@ -130,8 +142,14 @@ const DesignRubric = () => {
           {/* UL List Section */}
           <div className="">
             <h2 className="text-xl font-semibold text-white mb-4 ml-24">
-              Case Study Presentation Rubric for Final Round - {" "}
-              <a href="https://www.figma.com/community/file/1067428863353945820" target="_blank" className="underline text-[#d49797]">Sample Case Study</a>
+              Case Study Presentation Rubric for Final Round -{" "}
+              <a
+                href="https://www.figma.com/community/file/1067428863353945820"
+                target="_blank"
+                className="underline text-[#d49797]"
+              >
+                Sample Case Study
+              </a>
             </h2>
             <ul className="list-disc list-inside text-[#929292] space-y-2 ml-24">
               <li>

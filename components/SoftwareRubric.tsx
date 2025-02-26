@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const SoftwareRubric = () => {
   return (
     <section id="software">
       {/* Heading */}
       <h1 className="text-3xl ml-24 font-bold text-[#ff8d7f] mb-4">
-      Judging Rubric Of Software Development Projects
+        Judging Rubric Of Software Development Projects
       </h1>
 
       {/* Subheading */}
@@ -70,19 +70,37 @@ const SoftwareRubric = () => {
             Presentation Rubrik for Final Round
           </h2>
           <ul className="list-disc list-inside text-[#929292] space-y-2">
-            <li>Title Slide : Project Name, Team Name, Team Members 
+            <li>
+              <strong>Title Slide:</strong> Project Name, Team Name, Team
+              Members
             </li>
-            <li>Track Selection & Problem Statement: Chosen track & why it was selected, What problem are you solving?, Why is this problem important?</li>
-            <li>Ideation & Proposed Solution: Brainstormed ideas & thought process, Final solution overview, Any references or inspiration behind the idea</li>
-            <li>Skills & Tech Stack Used</li>
-            <li>Technology - Code Demonstration & Explanation:Architecture overview with Flowchart</li>
-            <li>Product Relevance in the Real World: Target users, Market demand or industry relevance, How does it improve existing solutions?
+            <li>
+              <strong>Track Selection & Problem Statement:</strong> Chosen track
+              & why it was selected, What problem are you solving?, Why is this
+              problem important?
+            </li>
+            <li>
+              <strong>Ideation & Proposed Solution:</strong> Brainstormed ideas
+              & thought process, Final solution overview, Any references or
+              inspiration behind the idea
+            </li>
+            <li>
+              <strong>Skills & Tech Stack Used</strong>
+            </li>
+            <li>
+              <strong>Technology - Code Demonstration & Explanation:</strong>{" "}
+              Architecture overview with Flowchart
+            </li>
+            <li>
+              <strong>Product Relevance in the Real World:</strong> Target
+              users, Market demand or industry relevance, How does it improve
+              existing solutions?
             </li>
           </ul>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default SoftwareRubric
+export default SoftwareRubric;
