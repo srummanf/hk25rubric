@@ -130,8 +130,8 @@ const DesignRubric = () => {
           {/* UL List Section */}
           <div className="">
             <h2 className="text-xl font-semibold text-white mb-4 ml-24">
-              Case Study Presentation Rubric for Final Round - 
-              <a href="https://www.figma.com/community/file/1067428863353945820" className="underline text-[#d49797]">Sample Case Study</a>
+              Case Study Presentation Rubric for Final Round - {" "}
+              <a href="https://www.figma.com/community/file/1067428863353945820" target="_blank" className="underline text-[#d49797]">Sample Case Study</a>
             </h2>
             <ul className="list-disc list-inside text-[#929292] space-y-2 ml-24">
               <li>
