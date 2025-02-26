@@ -7,10 +7,8 @@ import Navbar from "@/components/Navbar";
 import HardwareRubric from "@/components/HardwareRubric";
 import DesignRubric from "@/components/DesignRubric";
 
-
 import { useState, useEffect } from "react";
 import { ArrowUp } from "lucide-react"; // Ensure you have 'lucide-react' installed
-
 
 import Team3 from "@/components/Team3";
 
@@ -50,16 +48,24 @@ export default function Home() {
       {/* Side Text */}
       <div className="fixed left-[4rem] top-[300px] flex flex-col items-center gap-8">
         <span className="transform -rotate-90 text-xs tracking-wider text-[#444444] hover:text-[#FF7B6B] transition-colors">
-          <a href="https://www.instagram.com/hackclubvitc/">HC</a>
+          <a target="_blank" href="https://www.instagram.com/hackclubvitc/">
+            HC
+          </a>
         </span>
         <span className="transform -rotate-90 text-xs tracking-wider text-[#444444] hover:text-[#FF7B6B] transition-colors">
-          <a href="https://www.hacknight25.tech/">HN</a>
+          <a target="_blank" href="https://www.hacknight25.tech/">
+            HN
+          </a>
         </span>
         <span className="transform -rotate-90 text-xs tracking-wider text-[#444444] hover:text-[#FF7B6B] transition-colors">
-          <a href="https://hacknighthub.vercel.app/">KD</a>
+          <a target="_blank" href="https://hacknighthub.vercel.app/">
+            KD
+          </a>
         </span>
         <span className="transform -rotate-90 text-xs tracking-wider text-[#444444] hover:text-[#FF7B6B] transition-colors">
-          <a href="https://codeclean.vercel.app/">CC</a>
+          <a target="_blank" href="https://codeclean.vercel.app/">
+            CC
+          </a>
         </span>
       </div>
 
@@ -75,12 +81,12 @@ export default function Home() {
       <main className="pl-12 mt-32">
         <div className="max-w-4xl">
           <h2 className="text-7xl font-light mb-8 tracking-tight ml-24">
-            Web development studio
+            Evaluation Criteria
           </h2>
           <p className="text-2xl text-[#666666] tracking-tight ml-24">
-            Innovative web solutions for business
+            Innovation, impact, and execution
             <br />
-            and agency growth and success.
+            judged by industry experts and mentors.
           </p>
         </div>
       </main>
@@ -108,8 +114,6 @@ export default function Home() {
           <Team3 />
         </div>
       </main>
-
-      
 
       {/* Back to Top Button */}
       <div className="fixed bottom-8 right-8">

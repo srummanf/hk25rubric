@@ -53,7 +53,7 @@ export default function Team3() {
 
   return (
     <>
-      <div className="text-white py-8 px-8 ">
+      <div id="judges" className="text-white py-8 px-8 ">
         <h1 className="text-6xl md:text-9xl font-light uppercase tracking-wide outline-text">
           THE
         </h1>
