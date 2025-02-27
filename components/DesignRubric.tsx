@@ -10,8 +10,7 @@ const DesignRubric = () => {
 
       {/* Subheading */}
       <p className="text-lg ml-24 text-[#666666] mb-6">
-        Key aspects of the project, including track selection, real-world
-        relevance, and tech stack used.
+      The following rubric will be used to judge the design projects submitted by the participants.
       </p>
 
       {/* Flex Container */}
