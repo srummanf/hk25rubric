@@ -145,7 +145,7 @@ const DesignRubric = () => {
               <a
                 href="https://www.figma.com/community/file/1067428863353945820"
                 target="_blank"
-                className="underline text-[#d49797]"
+                className="underline text-[#d49797] hover:text-[#f9a3a3] transition-colors"
               >
                 Sample Case Study
               </a>

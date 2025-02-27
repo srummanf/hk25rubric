@@ -109,6 +109,10 @@ export default function Team3() {
                 width={192} // Higher resolution for smoothness
                 height={192}
                 className="w-full h-full object-cover"
+                priority={hoveredMember.image ? false : true} // Load placeholder immediately
+                placeholder="blur" // Adds a blur effect while loading (works only for static images)
+                blurDataURL="/placeholder.svg" // Low-quality placeholder (LQIP)
+                loading="lazy" // Ensures images are loaded only when needed
               />
             </div>
           </motion.div>
@@ -142,25 +146,24 @@ function TeamMemberCard({
           </p>
         </div>
         <Link
-  href={member.linkedin}
-  target="_blank"
-  className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center transition-all duration-300 ease-in-out group hover:bg-[#FF8D7F] hover:border-[#FF8D7F]"
->
-  <svg
-    className="w-6 h-6 text-[#FF8D7F] transition-transform duration-300 ease-in-out group-hover:-rotate-45 group-hover:text-white"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    viewBox="0 0 24 24"
-    aria-hidden="true"
-  >
-    <path d="M5 12h14"></path> 
-    <path d="M12 5l7 7-7 7"></path>
-  </svg>
-</Link>
-
+          href={member.linkedin}
+          target="_blank"
+          className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center transition-all duration-300 ease-in-out group hover:bg-[#FF8D7F] hover:border-[#FF8D7F]"
+        >
+          <svg
+            className="w-6 h-6 text-[#FF8D7F] transition-transform duration-300 ease-in-out group-hover:-rotate-45 group-hover:text-white"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path d="M5 12h14"></path>
+            <path d="M12 5l7 7-7 7"></path>
+          </svg>
+        </Link>
       </div>
     </div>
   );
