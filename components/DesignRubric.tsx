@@ -22,7 +22,7 @@ const DesignRubric = () => {
               <thead>
                 <tr className="bg-[#ff8d7f] text-white">
                   <th className="border border-gray-300 px-4 py-2 text-left">
-                    Midnight Round
+                    First Round
                   </th>
                 </tr>
               </thead>
@@ -49,7 +49,7 @@ const DesignRubric = () => {
           {/* UL List Section */}
           <div className="">
             <h2 className="text-xl font-semibold text-white mb-4 ml-24">
-              Presentation Rubric for Midnight Round - Targeting Emphasise,
+              Presentation Rubric for First Round - Targeting Emphasise,
               Ideate, Define, Basic Wireframing of UI/UX Design Process
             </h2>
             <ul className="list-disc list-inside text-[#929292] space-y-2 ml-24">

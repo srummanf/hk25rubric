@@ -21,7 +21,7 @@ const HardwareRubric = () => {
             <thead>
               <tr className="bg-[#ff8d7f] text-white">
                 <th className="border border-gray-300 px-4 py-2 text-left">
-                  Midnight Round
+                  First Round
                 </th>
                 <th className="border border-gray-300 px-4 py-2 text-left">
                   Final Round
