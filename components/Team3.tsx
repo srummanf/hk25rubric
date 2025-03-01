@@ -19,21 +19,21 @@ const teamMembers: TeamMember[] = [
     role: "Software",
     description:
       "Analyst at Deloitte USI Consulting | Ex President HackClub'22",
-    image: "/tirth.png",
+    image: "https://res.cloudinary.com/ddvbhjzdd/image/upload/v1740808646/tirth_lbegf6.png",
     linkedin: "https://www.linkedin.com/in/tirth-dave-a953541bb/",
   },
   {
     name: "Sparsh Kandpal",
     role: "Hardware, Software",
     description: "Upcoming SDE at TCS (Prime) | Beta MLSA | GSSoC' 24 Mentor ",
-    image: "/sparsh.jpg",
+    image: "https://res.cloudinary.com/ddvbhjzdd/image/upload/v1740808798/sparsh_fa8ivp.jpg",
     linkedin: "https://www.linkedin.com/in/sparsh-kandpal-7b8428217/",
   },
   {
     name: "Ashutosh Kumar",
     role: "Hardware",
     description: "Hardware Lead HackClub'24",
-    image: "/ashu.jpg",
+    image: "https://res.cloudinary.com/ddvbhjzdd/image/upload/v1740808644/ashu_ptjqbs.jpg",
     linkedin: "https://www.linkedin.com/in/ashutosh-kumar-b21519272/",
   },
   {
@@ -41,7 +41,7 @@ const teamMembers: TeamMember[] = [
     role: "Software, UI/UX Design",
     description:
       "Former-Intern @Ericsson | Former Dev Advocate @Quira | Beta MLSA",
-    image: "/spandan.jpg",
+    image: "https://res.cloudinary.com/ddvbhjzdd/image/upload/v1740808644/spandan_axs5fi.jpg",
     linkedin: "https://www.linkedin.com/in/spandanm110/",
   },
   {
@@ -49,7 +49,7 @@ const teamMembers: TeamMember[] = [
     role: "Software, UI/UX Design",
     description:
       "Upcoming AEH at Accenture | Beta MLSA | Ex Tech Lead HackClub'23 ",
-    image: "/SRF.jpg",
+    image: "https://res.cloudinary.com/ddvbhjzdd/image/upload/v1740808645/SRF_kt0dgt.jpg",
     linkedin: "https://www.linkedin.com/in/srummanf/",
   },
 ];

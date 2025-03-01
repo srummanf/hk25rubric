@@ -58,12 +58,12 @@ export default function Home() {
           </a>
         </span>
         <span className="transform -rotate-90 text-xs tracking-wider text-[#444444] hover:text-[#FF7B6B] transition-colors">
-          <a target="_blank" href="https://hacknighthub.vercel.app/">
+          <a target="_blank" href="https://www.knightsden.xyz/">
             KD
           </a>
         </span>
         <span className="transform -rotate-90 text-xs tracking-wider text-[#444444] hover:text-[#FF7B6B] transition-colors">
-          <a target="_blank" href="https://codeclean.vercel.app/">
+          <a target="_blank" href="https://thecleancode.xyz/">
             CC
           </a>
         </span>

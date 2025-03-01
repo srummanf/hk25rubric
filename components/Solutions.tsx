@@ -66,7 +66,7 @@ const Solutions = () => {
         {/* UL List Section */}
         <div className="lg:w-1/3">
           <h2 className="text-xl font-semibold text-white mb-4">
-            Presentation Rubrik for Final Round
+            Presentation Rubric for Final Round
           </h2>
           <ul className="list-disc list-inside text-[#929292] space-y-2">
             <li>Title Slide : Project Name, Team Name, Team Members 
