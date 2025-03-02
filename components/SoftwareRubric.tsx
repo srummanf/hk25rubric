@@ -31,7 +31,7 @@ const SoftwareRubric = () => {
             <tbody>
               <tr>
                 <td className="border border-gray-300 px-4 py-2 font-medium">
-                  Track Selection and Ideation
+                Track Selection, Novelty and Ideation
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
                   Technology (Code Demonstration and Explanation)
