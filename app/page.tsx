@@ -109,22 +109,22 @@ export default function Home() {
         </div>
       </main>
 
-      <main className="pl-12 mt-32 ml-24">
+      {/* <main className="pl-12 mt-32 ml-24">
         <div className="">
           <Team3 />
         </div>
-      </main>
+      </main> */}
 
       {/* Back to Top Button */}
       <div className="fixed bottom-8 right-8">
         <button
           onClick={scrollToTop}
-          className={`bg-[#FF7B6B] text-white p-3 rounded-full shadow-2xl transition-all duration-500 transform 
+          className={`bg-[#FF7B6B] text-white p-3 rounded-full shadow-2xl transition-all duration-500 transform
       ${
         showButton
           ? "opacity-100 scale-100"
           : "opacity-0 scale-75 pointer-events-none"
-      } 
+      }
       `}
         >
           <ArrowUp

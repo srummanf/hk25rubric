@@ -21,18 +21,17 @@ const Navbar = () => {
       >
         UI/UX Rubric
       </a>
-      <a
+      {/* <a
         href="#judges"
         className="text-sm text-[#999999] hover:text-white transition-colors tracking-wider"
       >
         Judges
-      </a>
-
+      </a> */}
       {/* <NavLink href="#contact">Contact</NavLink> */}
       <button className="bg-[#FF7B6B] text-white px-6 py-2 rounded-full text-sm hover:bg-[#ff8d7f] transition-colors">
         ALL THE BEST!
       </button>
-      
+
     </nav>
   );
 };
