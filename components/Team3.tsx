@@ -24,7 +24,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: "Sparsh Kandpal",
-    role: "Hardware, Software",
+    role: "Software",
     description: "Upcoming SDE at TCS (Prime) | Beta MLSA | GSSoC' 24 Mentor ",
     image: "https://res.cloudinary.com/ddvbhjzdd/image/upload/v1740808798/sparsh_fa8ivp.jpg",
     linkedin: "https://www.linkedin.com/in/sparsh-kandpal-7b8428217/",
@@ -38,7 +38,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     name: "Spandan Mukherjee",
-    role: "Software, UI/UX Design",
+    role: "Software",
     description:
       "Former-Intern @Ericsson | Former Dev Advocate @Quira | Beta MLSA",
     image: "https://res.cloudinary.com/ddvbhjzdd/image/upload/v1740808644/spandan_axs5fi.jpg",
