@@ -91,8 +91,7 @@ const DesignRubric = () => {
                 existing solutions?
               </li>
               <li>
-                <strong>Wireframing -</strong> (All) Lofi Wireframe /
-                (Partial/None) HiFi
+                <strong>Wireframing -</strong> Lofi and Hifi Wireframe - Atleast all Lofi Wireframes and 60% Hifi Wireframes.
               </li>
             </ul>
           </div>
