@@ -109,11 +109,11 @@ export default function Home() {
         </div>
       </main>
 
-      {/* <main className="pl-12 mt-32 ml-24">
+      <main className="pl-12 mt-32 ml-24">
         <div className="">
           <Team3 />
         </div>
-      </main> */}
+      </main> 
 
       {/* Back to Top Button */}
       <div className="fixed bottom-8 right-8">
